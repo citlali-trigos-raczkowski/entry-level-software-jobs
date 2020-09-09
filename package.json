@@ -10,8 +10,11 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "@material-ui/icons": "^4.9.1",
     "cron": "^1.8.2",
     "express": "^4.17.1",
+    "material-design-icons": "^3.0.1",
+    "material-ui-icons": "^1.0.0-beta.36",
     "node-fetch": "^2.6.0"
   },
   "devDependencies": {
