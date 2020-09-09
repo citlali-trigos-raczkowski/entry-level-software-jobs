@@ -1,8 +1,8 @@
 ## Welcome to Entry Level Software Jobs
-This is a simple application which fetches the latest Github Jobs postings on a scheduled interval, filters out non-entry-level positions, and displays them in a simple UI. 
+This is a simple application which fetches the latest Github Jobs postings on a scheduled interval, filters out non-entry-level positions, and displays them in a simple UI. This has been a really fun learning experience!
 
-What I'm using for this simple application is replicable in any [CRUD] (Create, read, upload, delete) application. This has been a really fun learning experience! I'm using the following:
-- single datafeed - calling the public Gihub Jobs API
+What I'm using for this simple application is replicable in any CRUD (Create, read, upload, delete) application. I'm using the following:
+- a single datafeed - calling the public Gihub Jobs API
 - in-memory storage - Redis Data Store 
 - worker making an async call on an interval -- i.e. batch processing using a node worker on Cron 
 - API called by a front-end
