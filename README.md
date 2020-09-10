@@ -41,15 +41,15 @@ Additionally on the page itself, we have
 
 To run locally, you have to start up both the client and the worker.
 
-To start the frontend (client), enter the `client` folder and start with `yarn`: 
-``` from entry-level-software-jobs/
-cd client && yarn serve
+To start the frontend (client), enter the `client` folder and start with `npm`: 
+```
+cd client && npm install && npm start
 ```
 If you know go to `localhost:3000`, you can view the UI. It won't however display jobs until you begin fetching them from github, which the backend does. 
 
-In another terminal window, start the backend by serving the api.
-``` from entry-level-software-jobs/
-node api
+In another terminal window, start the backend by serving the api from the most parent folder.
+``` 
+npm install && node server/api
 ```
 This command automatically accesses and runs the `index.js` file in `api/` which listens on port `3001` and allows the worker to begin fetching jobs on an interval.
 
