@@ -1,2 +1,2 @@
-client: cd client && yarn serve
+client: cd client && yarn serve,
 api: node api/index.js
